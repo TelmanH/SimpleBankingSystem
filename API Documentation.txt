@@ -1,0 +1,17 @@
+Detailed information for the used fucntions. Accepted parameters, arguments, and return values.
+
+#creatingaccount:
+Creates an account for the user. Credit card numbers and PIN are created randomly.
+Later, Luhn algorithm is used to make the credit card number unique. Funtion displays
+the created account information/
+
+#loginaccount:
+Asks for the user credit card number and PIN, queries the database. If a corresponding 
+entry is found in the database, user is logged in, if not user is prompted with an error message.
+
+Rest of the user transactions are handled within this function. Console input is taken 
+from the user and corresponding action is performed on the account and reflected on the database.
+
+#action:
+
+Acts as the main function. Displays the initial menu and takes console input from the user. 
